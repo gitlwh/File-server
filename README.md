@@ -12,18 +12,18 @@ This is one project from Lehigh CSE303 course which enables user to upload and d
 ##Preparation:
 1. Clone the repository.
 2. `cd` to the newly cloned project.
-3. Run `make` in command line to get output file in ./obj64.
+3. Run `make` in command line to get output file in `./obj64`.
 
 
 ## About server:
 1. To run server, you need to build one folder as root of server. 
-2. `cd` to that folder and execute server file with `./.../server`. Here, `server` is the file in ./obj64 folder.
-3. There are three parameters: -h help; -l cache basket #; -p port.
+2. `cd` to that folder and execute server file with `./.../server`. Here, `server` is the file in `./obj64` folder.
+3. There are three parameters: `-h` help; `-l` cache basket #; `-p` port.
 
 ## About client:
 1. To run client, you also need to build one folder as root of client.
-2. `cd` to that folder and execute server file with `./.../client`. Here, `client` is the file in ./obj64 folder.
-3. There are six parameters: -h help; -s server IP; -P put file name; -G get file name; -S save file name; -P port.
+2. `cd` to that folder and execute server file with `./.../client`. Here, `client` is the file in `./obj64` folder.
+3. There are six parameters: `-h` help; `-s` server IP; `-P` put file name; `-G` get file name; `-S` save file name; `-P port.
 4. You can build pem encryption file with:
 
     ```
